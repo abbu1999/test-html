@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <h2>This is form</h2>
+    <!-- action is a end point ....which is store all data in the form -->
+    <form action="backend.php">
+        <br>
+        <!-- jo text for ke ander hoga vahi id m hona chiye -->
+        <label for="name">Name</label>
+        <div>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <label for="role">Role</label>
+        <div>
+            <input type="text" id="role">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="text" id="email">
+        </div>
+        <br>
+        <label for="date">Date of apply</label>
+        <div>
+            <input type="date" id="date">
+        </div>
+        <br>
+        <label for="age">Age</label>
+        <div>
+            <input type="number" id="age">
+        </div>
+        <br>
+        <!-- bydefult checked karna h to  -->
+
+        <div>
+            Conform: <input type="checkbox" checked>
+
+        </div>
+
+        <br>
+
+        <label for="gender">Gender</label>
+        <div>
+            male<input type="radio" id="gender" name="my gender">
+            female <input type="radio" name="my gender">
+
+        </div>
+        <br>
+        <label for="comment">Comment</label>
+        <div>
+            <textarea name="my comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="car">Car</label>
+        <div>
+            <select name="car" id="car">
+                <option value="ind">indika</option>
+                <option value="swt">swift</option>
+            </select>
+
+        </div>
+        <br>
+        <!-- we are also use label tag here -->
+        <div>
+            Submit: <input type="submit">
+        </div>
+        <br>
+
+        <div>
+            Reset: <input type="reset">
+        </div>
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
